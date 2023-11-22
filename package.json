@@ -1,0 +1,17 @@
+{
+    "name": "test-bot-sql",
+    "version": "1.0.0",
+    "description": "Ein einfacher Azure Bot zur Ausführung von SQL-Abfragen",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Erdal Akkoc",
+    "license": "ISC",
+    "dependencies": {
+      "botbuilder": "^4.14.0",
+      "restify": "^8.5.1",
+      "mssql": "^7.1.3"
+    }
+  }
+  
